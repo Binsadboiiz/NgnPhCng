@@ -1,0 +1,71 @@
+.header {
+    background-color: rgb(230, 194, 194);
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px 30px;    
+}
+.logo {
+    color: red;
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    text-decoration: none;
+    gap: 22px; 
+    list-style: none;
+    text-decoration-line: none;
+}
+.navli li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 100px;
+}
+body {
+    box-sizing: content-box;
+    margin: 0;
+}
+
+.footer{
+    padding: 12px;
+    border-top: 4px solid var(--primary-color);
+    background-color: black;
+}
+.footer-heading {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+}
+.footer-list {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-list-item-link{
+    text-decoration: none; 
+    font-size: 0.9rem;
+    color: #737373;
+    padding: 2px 0;
+    display: block;
+}
+.footer-list-item-link:hover{
+    color: white
+}
+.grid__colum-2-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+.grid{
+    max-width: 100vh;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid-row{
+    display: flex;
+}
+.footer-text{
+    color: white;
+}
+#datetime{
+    text-align: right;
+}

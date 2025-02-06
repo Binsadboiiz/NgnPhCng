@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<header class="header">
+    <div class="logo">Zara Therapy Clinic</div>
+    <nav class="navli">
+        <li><i class="fa-solid fa-house"></i><a href="#">Home</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">About Us</a></li>
+    </nav>
+</header>
+<body>
+
+</body>
+<footer class="footer">
+    <div class="grid">
+        <div class="grid-row">
+            <div class="grid__colum-2-4">
+                <h3 class="footer-heading">Chăm sóc khách hàng</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="" class="footer-list-item-link">Trung tâm trợ giúp</a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="" class="footer-list-item-link">ZTC Mall</a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="" class="footer-list-item-link">Hướng dẫn mua hàng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__colum-2-4">
+                <h3 class="footer-heading">Giới thiệu</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="" class="footer-list-item-link">Giới thiệu</a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="" class="footer-list-item-link">Tuyển dụng</a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="" class="footer-list-item-link">Điều khoảng</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__colum-2-4">
+                <h3 class="footer-heading">Danh mục</h3>
+                
+            </div>
+            <div class="grid__colum-2-4">
+                <h3 class="footer-heading">Theo dõi</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="" class="footer-list-item-link">
+                            <i class="fa-brands fa-facebook"></i>
+                            Facebook</a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="" class="footer-list-item-link">
+                            <i class="fa-brands fa-instagram"></i>
+                            Instagram</a>
+                    </li>
+                    <li class="footer-list-item">
+                        <a href="" class="footer-list-item-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                            Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="grid__colum-2-4">
+                <h3 class="footer-heading">Vào cửa hàng trên ứng dụng</h3>
+            </div>
+        </div>
+           
+        <div class="grid-row">
+            <p class="footer-text">ZTC - 2025</p>
+        </div>
+        <div id="datetime" style="color: white;"></div>
+        <script>
+            function displayDateTime() {
+                var now = new Date();
+                var dateTime = now.toLocaleString();
+                document.getElementById("datetime").innerHTML = dateTime;
+            }
+            setInterval(displayDateTime, 1000);
+        </script>
+    </div>
+</footer>
+</html>
